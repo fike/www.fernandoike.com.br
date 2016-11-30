@@ -9,12 +9,6 @@ theme = "blackburn"
 DefaultContentLanguage = "pt"
 DefaultContentLanguageInSubdir = true
 
-[Languages]
-[Languages.pt]
-weight = 1
-
-[Languages.en]
-weight = 2
 
 [permalinks]
     # Optional. Change the permalink format for the 'post' content type.
@@ -53,24 +47,18 @@ weight = 2
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 1
     identifier = "english"
-    url = "/en/"
-  [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 2
-    identifier = "about"
-    url = "/en/about/"
+    url = "http://denali.fernandoike.com"
   [[menu.main]]
     name = "Sobre"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 2
     identifier = "sobre"
-    url = "/pt/sobre/"
-  [[menu.main]]
-    name = "Contact"
-    pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 3
-    url = "/contact/"
+    url = "/sobre/"
+  #[[menu.main]]
+  #  name = "Contact"
+  #  pre = "<i class='fa fa-phone fa-fw'></i>"
+  #  weight = 3
+  #  url = "/contact/"
 
 [social]
   # Link your social networking accounts to the side menu
