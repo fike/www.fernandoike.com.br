@@ -1,5 +1,5 @@
 +++
-title = "Postgresql tuning - prelúdio"
+title = "Postgresql tuning"
 date = "2013-08-06"
 draft = false
 Categories = ["performance", "postgresql", "SL", "portugues"]
