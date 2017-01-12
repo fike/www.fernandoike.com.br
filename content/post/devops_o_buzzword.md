@@ -9,7 +9,7 @@ tags = ["agile", "devops", "buzzword"]
 
 ![buzzword_toy](/images/buzzword_junior.jpg)
 
-DevOps é uma dos termos que estão na moda como IoT (Internet das Coisas), drones etc. As empresas querem DevOps, as pessoas querem ser ou tornarem-se DevOps, há cursos DevOps, produtos DevOps... Enfim, é um termo tão quente que todos querem ser, estar ou "fazer" DevOps. Quando um termo torna-se tão quente e recorrente por um período de tempo é comum dizer que é Buzzword.
+DevOps é um dos termos que estão na moda como IoT (Internet das Coisas), drones etc. As empresas querem DevOps, as pessoas querem ser ou tornarem-se DevOps, há cursos DevOps, produtos DevOps, etc. Enfim, é um termo tão quente que todos querem ser, estar ou "fazer" DevOps. Quando um termo torna-se tão quente e recorrente por um período de tempo é comum dizer que é Buzzword.
 
 ## Significado e Origem
 
