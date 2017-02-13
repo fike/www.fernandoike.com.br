@@ -1,6 +1,6 @@
 +++
 title = "O Postmortem da Gitlab"
-description = "Análise do Postmortem da Gitlab"
+description = "Análise e lições do Postmortem da Gitlab"
 categories = ["devops", "portugues", "sre"]
 tags = ["devops", "portugues", "sre", "blameless", "postmortem", "gitlab", "netflix", "google", ]
 draft = false
@@ -27,21 +27,21 @@ GameDay é bem interessante, tem um estudo de caso em que Jesse Robbins, Kripa K
 
 Já participei de testes similares à ele duas instituições financeiras. Na ocasião, o objetivo era realizar melhorar o processo de mitigação de ataques DDoS, para isso era realizado simulações de diversos tipos de ataques DDoS. A cada teste era identificado um equipamento, serviço, processo ou sistema que deveria ser revisto pois algum tipo de ataque não era mitigado. Após vários testes, essas instituições sofreram vários ataques DDoS reais que foram mitigados sem grande impacto para os clientes deles.
 
-Referências:
+**Referências**:
 
-Gitlab - Postmortem of database outage of January 31:
+**Gitlab** - **Postmortem of database outage of January 31**:
 https://about.gitlab.com/2017/02/10/postmortem-of-database-outage-of-january-31/
 
-Livro - Google SRE: https://landing.google.com/sre/book/chapters/postmortem-culture.html
+**Livro - Google SRE**: https://landing.google.com/sre/book/chapters/postmortem-culture.html
 
-John Allspaw - Blameless PostMortems and a Just Culture: https://codeascraft.com/2012/05/22/blameless-postmortems/
+**John Allspaw** - **Blameless PostMortems and a Just Culture**: https://codeascraft.com/2012/05/22/blameless-postmortems/
 
-Jesse Robins - "GameDay: Creating Resiliency Through Destruction" - https://www.youtube.com/watch?v=zoz0ZjfrQ9s
+**Jesse Robins** - **GameDay: Creating Resiliency Through Destruction** - https://www.youtube.com/watch?v=zoz0ZjfrQ9s
 
-Resilience Engineering: Learning to Embrace Failure: https://queue.acm.org/detail.cfm?id=2371297
+**Resilience Engineering**: **Learning to Embrace Failure**: https://queue.acm.org/detail.cfm?id=2371297
 
-5 Whys: http://www.toyota-global.com/company/toyota_traditions/quality/mar_apr_2006.html
+ **5 Whys**: http://www.toyota-global.com/company/toyota_traditions/quality/mar_apr_2006.html
 
-Google Compute Engine Incident #16007:   https://status.cloud.google.com/incident/compute/16007?post-mortem
+**Google Compute Engine Incident #16007**:   https://status.cloud.google.com/incident/compute/16007?post-mortem
 
-Netflix - Post-mortem of October 22,2012 AWS degradation: http://techblog.netflix.com/2012/10/post-mortem-of-october-222012-aws.html
+**Netflix - Post-mortem of October 22,2012 AWS degradation**: http://techblog.netflix.com/2012/10/post-mortem-of-october-222012-aws.html
