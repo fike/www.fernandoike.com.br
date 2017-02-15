@@ -4,7 +4,7 @@ date = "2017-01-10T20:54:40-02:00"
 title = "Devops como Buzzword"
 description = "Reflexões sobre DevOps como buzzword"
 categories = ["devops", "portugues"]
-tags = ["agile", "devops", "buzzword"]
+tags = ["agile", "devops", "buzzword", "lean"]
 +++
 
 ![buzzword_toy](/images/buzzword_junior.jpg)
@@ -44,6 +44,14 @@ Voltando ao DevOps como buzzword, as pessoas que já praticam DevOps ou adotam a
 Ah, DevOps não deveria ser aplicado em toda empresa? A resposta é sim, mas em casos assim é mais comum falar em implantar [Lean](http://www.lean.org/whatslean/) ou TPS ([Toyota Production System](http://www.toyota-global.com/company/vision_philosophy/toyota_production_system/))
 
 *Nota*: Este é o primeiro de uma séria de texto sobre DevOps, se gostou e quiser compartilhar ou conversar mais, entre contato ou escreva seu comentário. Se tiver correções, fique à vontade para fazer também.
+
+Referências:
+- What Makes a Management Buzzword Buzz?: http://journals.sagepub.com/doi/abs/10.1177/0170840612464750
+- Merrian-Webster - Buzzword: https://www.merriam-webster.com/dictionary/buzzword
+- The Three Ways: http://itrevolution.com/the-three-ways-principles-underpinning-devops/
+- ICE: http://radar.oreilly.com/2015/01/devops-keeps-it-cool-with-ice.html
+- Lean: http://www.lean.org/whatslean/
+- Toyota Production System: http://www.toyota-global.com/company/vision_philosophy/toyota_production_system/
 
 Links:
 
