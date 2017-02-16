@@ -1,8 +1,8 @@
 +++
-description = ""
-categories = []
-tags = []
-date = "2017-02-12T10:46:58-02:00"
+description = "Como devem ser descritas as vagas DevOps"
+categories = ["devops", "portugues"]
+tags = ["devops", "vagas", "netflix", "xebialabs", "blameless"]
+date = "2017-02-17T10:46:58-02:00"
 title = "Devops e vagas de emprego"
 draft = true
 
@@ -16,19 +16,19 @@ Descrever uma oportunidade de trabalho "DevOps" não parece ser tão simples qua
 
 ## Alguns erros mais comuns nas descrições de vagas
 
-1. Requisitos acima do perfil: O salário da vaga é pleno ou junior mas o requisitos técnicos são para senior ou especialista. É situação difícil de conciliar porque muitas vezes a aprovação de salário para aquela vaga não depende só do gerente responsável mas de outras áreas.
+1. **Requisitos acima do perfil**: O salário da vaga é pleno ou junior mas o requisitos técnicos são para senior ou especialista. É situação difícil de conciliar porque muitas vezes a aprovação de salário para aquela vaga não depende só do gerente responsável mas de outras áreas.
 
-2. Usar DevOps como função: Como DevOps envolve todas as áreas de TI de uma organização, usá-lo como função pode atingir uma audiência maior mas a consequência é uma dificuldade maior para achar o candidato ideal. Muito comum ver vagas DevOps Java Developer, DevOps Infra Senior, etc. As vezes menos é mais, portanto, se a organização pratica DevOps mas você precisa de desenvolvedores, descreva a função como desenvolvedor. Ou se você quer recrutar com o perfil mais de infraestrutura, descreva Sysadmin ou SRE (futuro próximo terá um texto específico sobre).
+2. **Usar DevOps como função**: Como DevOps envolve todas as áreas de TI de uma organização, usá-lo como função pode atingir uma audiência maior mas a consequência é uma dificuldade maior para achar o candidato ideal. Muito comum ver vagas *DevOps Java Developer*, *DevOps Infra Senior*, etc. As vezes menos é mais, portanto, se a organização pratica DevOps mas você precisa de desenvolvedores, descreva a função como desenvolvedor. Ou se você quer recrutar com o perfil mais de infraestrutura, descreva como **Sysadmin** ou **SRE** (futuro próximo terá um texto específico sobre).
 
-3. Bodyshop DevOps: Tem ocorrido com muita frequência é empresa vendendo consultoria DevOps no formato homem/hora. Ou seja, uma organização contrata uma empresa prestadora de serviço baseado no número de profissionais que irão manter a infraestrutura do cliente. Exemplo: 2 sysadmins, 1 administrador de rede e 1 DBA. Um dos efeitos colaterais é que estas empresas prestadora de serviço só consegue contratar "DevOps" Júnior, porque o cliente não quer pagar por um Senior. O problema aqui é o formato que está vendendo o serviço, ele compete com o que mercado comumente chama de Bodyshop.
+3. **Bodyshop DevOps**: Tem ocorrido com muita frequência é empresa vendendo consultoria DevOps no formato homem/hora. Ou seja, uma organização contrata uma empresa prestadora de serviço baseado no número de profissionais que irão manter a infraestrutura do cliente. *Exemplo*: **2 sysadmins**, **1 administrador de rede** e **1 DBA**. Um dos efeitos colaterais é que estas empresas prestadora de serviço só consegue contratar "DevOps" Júnior, porque o cliente não quer pagar por um Senior. O problema aqui é o formato que está vendendo o serviço, ele compete com o que mercado comumente chama de **Bodyshop**.
 
-4. Descrições somente técnicas: A vaga fala todas as ferramentas e serviços que o candidato deve conhecer mas não tem nada sobre outras características relacionada a cultura DevOps como empatia, comunicação, trabalho em equipe, capacidade de aprender rapidamente, etc.
+4. **Descrições somente técnicas**: A vaga fala todas as ferramentas e serviços que o candidato deve conhecer mas não tem nada sobre outras características relacionada a cultura DevOps como empatia, comunicação, trabalho em equipe, capacidade de aprender rapidamente, etc.
 
-5. Descrição com foco no ambiente "cool": Algumas descrições acentuam que o ambiente de trabalho é legal, tem videogame, snacks, ambiente relaxado (tipo, pode ir de chinelo), hackathons, etc. São coisas que ajudam mas elas não podem ser a principal razão de um candidato querer trabalhar numa organização. Conheci uma empresa que tinha isso tudo mas toda sexta-feira no fim do dia tinha WarRoom e pizza, isso porque era certo que o deploy iria dar problema. E alguns "DevOps" achavam isso realmente legal.
+5. **Descrição com foco no ambiente "cool"**: Algumas descrições acentuam que o ambiente de trabalho é legal, tem videogame, snacks, ambiente relaxado (tipo, pode ir de chinelo), hackathons, etc. São coisas que ajudam mas elas não podem ser a principal razão de um candidato querer trabalhar numa organização. Conheci uma empresa que tinha isso tudo mas toda sexta-feira no fim do dia tinha WarRoom e pizza, isso porque era certo que o deploy iria dar problema. E alguns "DevOps" achavam isso realmente legal.
 
 ### Por que toda essa confusão?
 
-Tentei responder porque DevOps tem múltiplos significados e entendimentos no texto "DevOps como buzzword". Em parte, isso acontece porque é mais fácil vender "DevOps" como ferramentas do que uma cultura, também dependendo do papel da pessoal pode ter um significado mais próximo do universo que ela pertence. Talvez a melhor resposta seja do  
+Tentei responder porque DevOps tem múltiplos significados e entendimentos no texto "[DevOps como buzzword](https://www.fernandoike.com.br/2017/01/10/devops-como-buzzword/)". Em parte, isso acontece porque é mais fácil vender "DevOps" como ferramentas do que uma cultura, também dependendo do papel da pessoal pode ter um significado mais próximo do universo que ela pertence. Talvez a melhor resposta seja do  
 [Aymen El AmriFollow](http://eon01.com/), ele fez um [checklist](https://hackernoon.com/the-must-know-checklist-for-devops-system-reliability-engineers-f74c1cbf259d#.5lfuvr8ko) (em inglês) com 31 habilidades que **DevOps** e/ou **SRE** devem ter. Na introdução ele faz uma síntese de como alguns papéis na área de TI entende o que é DevOps:
 
 > Para evangelistas, Devops é uma cultura e uma transformação. Para alguns engenheiros, DevOps é um conjunto de técnicas e ferramentas. Para gerentes, DevOps é provavelmente metodologia. Para outras pessoas é só um buzzword e para recrutadores é uma função na organização (emprego).
@@ -39,7 +39,7 @@ Se você tiver que contratar alguém, veja abaixo algumas recomendações:
 
 ### Ninguém é especialista em tudo em DevOps
 
-Cada vez mais, vemos o surgimento de ferramentas, serviços, linguagens de programação e frameworks de desenvolvimento e é praticamente impossível se manter atualizado em todas elas. A Xebialabs catalogou algumas categorias de ferramentas DevOps:
+Cada vez mais, vemos o surgimento de ferramentas, serviços, linguagens de programação e frameworks de desenvolvimento e é praticamente impossível se manter atualizado em todas elas. A [Xebialabs](https://xebialabs.com) catalogou algumas categorias de ferramentas DevOps:
 
 - SCM
 - Continuous Integration
@@ -59,14 +59,13 @@ Cada vez mais, vemos o surgimento de ferramentas, serviços, linguagens de progr
 
 Abaixo a imagem da tabela periódica das ferramentas DevOps. Dê uma olhada e diga sinceramente se conhece alguém que tenha domínio e uma ferramenta de cada categoria. É praticamente impossível conhecer todas elas, portanto descrições de vagas de trabalho focando somente em ferramentas pode impedir um possível candidato ideal para vaga.
 
-![DevOps Periodic Table](/images/devops_periodic_table.png)
+<iframe src="https://xebialabs.com/periodic-table-of-devops-tools/embed/" style="border:0px #FFFFFF none;" name="Periodic Table of DevOps" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500px" width="900px"></iframe>
 
 ### Descrições de vagas
 
-O [Guto Carvalho](https://twitter.com/gutocarvalho) montou um excelente template de descrição de vaga no texto "[Vagas DevOps fazem sentido? Entenda!](http://gutocarvalho.net/blog/2016/06/03/vagas-devops-fazem-sentido-entenda/)". Comece sua descrição a partir do template do Guto, se tiver dúvida se está no caminho certo, pergunte para conhecidos ou nas comunidades.
+O [Guto Carvalho](https://twitter.com/gutocarvalho) montou um excelente template de descrição de vaga no texto "[Vagas DevOps fazem sentido? Entenda!](http://gutocarvalho.net/blog/2016/06/03/vagas-devops-fazem-sentido-entenda/)". Se precisar de um ponto de partida para fazer a descrição de vaga, use o template do Guto, se tiver dúvida se está no caminho certo, pergunte para conhecidos ou nas comunidades.
 
 Uma das vezes que trabalhei como Gerente de TI, precisava contratar pessoas para equipe, o desafio era grande e queríamos mudar tudo que existia (virtualização estava engatinhando...), poderíamos ter focado somente nos critérios técnicos mas optamos por outras coisas como capacidade de aprender coisas novas rapidamente e reconhecer erros. Numa parte da entrevistas eu citava um erro que cometi num trabalho anterior e qual foi a consequência, depois perguntava para o entrevistado se ele já tinha cometido um erro e o que ele aprendeu. Alguns não conseguiram responder e outros foram francos ao assumirem o fracasso e dizer o que aprenderam. Na época já procurávamos implantar a cultura Blameless mas não entendíamos isso de forma sistemática como hoje.
-
 
 ### Ambiente de trabalho
 
@@ -75,7 +74,3 @@ Provavelmente se você for visitar a sede do Netflix verá máquinas de café, s
 - "**Um ótimo local de trabalho** é ter **Colegas Talentosos**"
 - "Um ótimo local de trabalho não é café expresso, benefícios impressionantes, almoço de sushi, festas bacanas ou um escritório legal"
 - "Nós fazemos algumas dessas coisas, mas somente se elas forem uma forma eficiente de atrair e manter colegas talentosos"
-
-http://www.slideshare.net/reed2001/culture-1798664/20-Great_Workplace_isStunning_ColleaguesGreat_workplace
-
-Contar caso dos meus critérios de contratação quando era gerente.
