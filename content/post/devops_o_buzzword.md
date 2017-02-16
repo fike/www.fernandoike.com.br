@@ -46,13 +46,17 @@ Ah, DevOps não deveria ser aplicado em toda empresa? A resposta é sim, mas em 
 *Nota*: Este é o primeiro de uma séria de texto sobre DevOps, se gostou e quiser compartilhar ou conversar mais, entre contato ou escreva seu comentário. Se tiver correções, fique à vontade para fazer também.
 
 Referências:
-- What Makes a Management Buzzword Buzz?: http://journals.sagepub.com/doi/abs/10.1177/0170840612464750
-- Merrian-Webster - Buzzword: https://www.merriam-webster.com/dictionary/buzzword
-- The Three Ways: http://itrevolution.com/the-three-ways-principles-underpinning-devops/
-- ICE: http://radar.oreilly.com/2015/01/devops-keeps-it-cool-with-ice.html
-- Lean: http://www.lean.org/whatslean/
-- Toyota Production System: http://www.toyota-global.com/company/vision_philosophy/toyota_production_system/
 
-Links:
+- What Makes a Management Buzzword Buzz?: http://journals.sagepub.com/doi/abs/10.1177/0170840612464750
+
+- Merrian-Webster - Buzzword: https://www.merriam-webster.com/dictionary/buzzword
+-
+- The Three Ways: http://itrevolution.com/the-three-ways-principles-underpinning-devops/
+-
+- ICE: http://radar.oreilly.com/2015/01/devops-keeps-it-cool-with-ice.html
+
+- Lean: http://www.lean.org/whatslean/
+
+- Toyota Production System: http://www.toyota-global.com/company/vision_philosophy/toyota_production_system/
 
 - Buzzword Junior Toy: Patch http://www.playmonster.com/p/buzzword-junior
