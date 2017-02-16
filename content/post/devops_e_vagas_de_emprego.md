@@ -7,12 +7,12 @@ title = "Devops e vagas de emprego"
 draft = true
 
 +++
-Muito comum ver nos dias de hoje descrições de vagas contendo DevOps, seja como uma função, habilidade ou conhecimento. Vagas de modo geral na área TI são um bom gerador de memes, isso porque as descrições na maioria dos casos pedem
+Muito comum ver nos dias de hoje descrições de vagas contendo DevOps, seja como uma função, habilidade ou conhecimento. Vagas de modo geral na área TI são um bom gerador de memes, isso porque as descrições, na maioria dos casos, pedem
 habilidades ou conhecimentos de superhumanos (superheróis). As descrições de vagas "DevOps" geralmente ocorrem porque o objetivo dos recrutadores é fazer o anúncio atingir a maior audiência possível e assim, obter os candidatos mais adequados ao perfil desejado pela TI de uma organização.
 
-No [DevOpsDays Brasília](https://www.devopsdays.org/events/2016-brasilia/welcome/), estávamos conversando sobre descrições de vaga e uma pessoa (infelizmente não lembro quem foi) na conversa comentou que um recrutador lhe disse que as descrições de vaga tem tantas habilidades porque se aparecer um candidato com uma parte das habilidades requeridas já é o suficiente para ele.
+No [DevOpsDays Brasília](https://www.devopsdays.org/events/2016-brasilia/welcome/), estávamos conversando sobre descrições de vaga, e uma pessoa (infelizmente não lembro quem foi) na conversa, comentou que um recrutador lhe disse que as descrições de vaga tem tantas habilidades porque se aparecer um candidato com uma parte das habilidades requeridas já é o suficiente para ele.
 
-Descrever uma oportunidade de trabalho "DevOps" não parece ser tão simples quanto imaginamos, porque antes de pensar na descrição da oportunidade, a pergunta a ser feita é "Nós usamos ou praticamos DevOps?". Se a resposta for sim, cite que vocês praticam DevOps. Se ainda não praticam, não comece recrutando um "DevOps" via anúncio de vaga porque DevOps é mais que uma pessoa pode fazer, envolve toda a organização (especialmente a área de TI). Lembrando que DevOps é transformar (no meu ponto de vista) organizações de baixa performance em alta performance. O perigo de contratar um cargo "DevOps" é gerar a frustração grande deste profissional e de toda organização porque a responsabilidade tende a concentrar nele.
+Descrever uma oportunidade de trabalho "DevOps" não parece ser tão simples quanto imaginamos, porque antes de pensar na descrição da oportunidade, a pergunta a ser feita é "Nós usamos ou praticamos DevOps?". Se a resposta for sim, cite que vocês praticam DevOps. Se ainda não praticam, não comece recrutando um "DevOps" via anúncio de vaga porque DevOps é mais que uma pessoa pode fazer, envolve toda a organização (especialmente a área de TI). Lembrando que DevOps é transformar (no meu ponto de vista) organizações de baixa performance em alta performance. O perigo de contratar um cargo "DevOps" é gerar a frustração grande deste profissional e de toda organização porque a responsabilidade tende a se concentrar nele.
 
 ## Alguns erros mais comuns nas descrições de vagas
 
