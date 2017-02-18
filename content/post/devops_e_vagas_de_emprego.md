@@ -7,7 +7,7 @@ title = "Devops e vagas de emprego"
 draft = false
 
 +++
-Muito comum ver nos dias de hoje descrições de vagas contendo DevOps, seja como uma função, habilidade ou conhecimento. Vagas de modo geral na área TI são um bom gerador de memes, isso porque as descrições, na maioria dos casos, pedem
+Muito comum ver nos dias de hoje descrições de vagas contendo DevOps, seja como uma função, habilidade ou conhecimento. Vagas de modo geral na área de TI são um bom gerador de memes, isso porque as descrições, na maioria dos casos, pedem
 habilidades ou conhecimentos de superhumanos (superheróis). As descrições de vagas "DevOps" geralmente aparecem porque o objetivo dos recrutadores é fazer o anúncio atingir a maior audiência possível e assim, obter os candidatos mais adequados ao perfil desejado pela TI de uma organização.
 
 No [DevOpsDays Brasília](https://www.devopsdays.org/events/2016-brasilia/welcome/), estávamos conversando sobre descrições de vaga, e uma pessoa (infelizmente não lembro quem foi) da conversa, comentou que um recrutador lhe disse que as descrições de vaga tem tantos requisitos porque se aparecer um candidato que saiba uma fração delas já é o suficiente para ele.
@@ -63,7 +63,7 @@ Abaixo a imagem da tabela periódica das ferramentas DevOps. Dê uma olhada e di
 
 ### Descrições de vagas
 
-O [Guto Carvalho](https://twitter.com/gutocarvalho) montou um excelente template de descrição de vaga no texto "[Vagas DevOps fazem sentido? Entenda!](http://gutocarvalho.net/blog/2016/06/03/vagas-devops-fazem-sentido-entenda/)". Se precisar de um ponto de partida para fazer a descrição de vaga, use o template do Guto, se tiver dúvida se está no caminho certo, pergunte para conhecidos ou nas comunidades.
+O [Guto Carvalho](https://twitter.com/gutocarvalho) montou um excelente template de descrição de vaga no texto "[Vagas DevOps fazem sentido? Entenda!](http://gutocarvalho.net/blog/2016/06/03/vagas-devops-fazem-sentido-entenda/)". Outro bom [template](https://gist.github.com/dgmorales/7f649a17d54b2584a98e727447f2023f) é do [Diego Morales](https://twitter.com/dgmorales). Se precisar de um ponto de partida para fazer a descrição de vaga, use o template do Guto ou do Diego, se tiver dúvida se está no caminho certo, pergunte para conhecidos ou nas comunidades.
 
 Uma das vezes que trabalhei como Gerente de TI, precisava contratar pessoas para equipe, o desafio era grande e queríamos mudar tudo que existia (virtualização estava engatinhando...), poderíamos ter focado somente nos critérios técnicos mas optamos por outras coisas como capacidade de aprender coisas novas rapidamente e reconhecer erros. Numa parte da entrevistas eu citava um erro que cometi num trabalho anterior e qual foi a consequência, depois perguntava para o entrevistado se ele já tinha cometido um erro e o que ele aprendeu. Alguns não conseguiram responder e outros foram francos ao assumirem o fracasso e dizer o que aprenderam. Na época já procurávamos implantar a cultura Blameless mas não entendíamos isso de forma sistemática como hoje.
 
