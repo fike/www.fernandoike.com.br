@@ -39,13 +39,30 @@ O tempo das equipes é divido entre atividades de rotina de operação de TI (ex
 
 Há também uma liberdade do profissional SRE possa decidir mudar de equipe por uma razão qualquer. O impacto é relativamente pequeno porque todas equipes usam os mesmos processos e princípios. Portanto, mesmo que não tenho o conhecimento de um framework usado de um outro time, isso não é um impedimento para mudança de equipe já que ele pode aprender rapidamente. Outro ponto bem interessante é que no processo de recrutamento de novos SRE, não é requisito saber as linguagens e frameworks usados pelo Google, o mais importante é que o candidato saber programar (**Coders**).
 
+Reuniões semanais de 30 à 60 minutos
+
+Shadow on-call
+
 Além das equipes SREs, outra equipe importante, além das equipes de desenvolvimento de produtos, é a Launch Coordination Engineering. Eles são "consultores internos",  
 
 Além das equipes SREs, há um outro tipo de equipe no Google que vale destacar, é o Launch Coordination Engineering. Eles são equipes de consultoria interna de profissionais SRE com experiência em lançamento de produtos/serviços, orientando "*... os desenvolvedores para a construção de produtos rápidos e confiáveis que atendam aos padrões do Google em confiabilidade, escalabilidade e robustez*" **(Cap. 27 - Reliable Product Launches at Scale - SRE Book)**
 
 ##  Os princípios básicos
 
-### Garantir um foco duradouro na Engenharia
+Os princípios básico de SRE são:
+
+- Garantia um foco duradouro na Engenharia
+- Perseguindo a maior velocidade de mudança sem violar um serviço SLO
+- Monitoramento
+- Resposta a emergências
+- Gerenciamento de mudança
+- Previsão de demanda e Capacity Planning
+- Provisionamento
+- Eficiência e Performance
+
+Abaixo alguns princípios que vale destacar.
+
+### Garantia um foco duradouro na Engenharia
 
 Como mencionado no início do texto, os SRE trabalham 50% em atividades típicas de área de operações de TI de um organização. Quando este percentual eleva-se, as atividades excedentes são encaminhadas para os times de desenvolvimento de produto ou por um tempo determinado é alocado SREs de outras equipes para ajudar.
 
@@ -57,35 +74,46 @@ Como definir o SLO de um serviço ou aplicação?
 
 Talvez seja um dos pontos de maior conflito entre áreas de TI e/ou mesmo outras áreas de uma organização. A área de operações pode definir que o SLO é de 97% de disponibilidade mas desenvolvimento ou a gerencia querer 100%. Muitas vezes já tive que explicar o quanto é inatingível 100% de disponibilidade, uma das respostas que mais ouvi era - "Ah, então o mais próximo de 100%, ok?". Muitas vezes saia frustrado das reuniões por não ter conseguindo explicar o quanto era difícil acrescentar noves para chegar mais próximo ao 100%. Gerentes e desenvolvedores só entendiam quando mostrava financeiramente o custo para aumentar a disponibilidade e perguntava de onde iria mover recurso financeiro para alocar para aquilo. Depois disso, SLO e SLA eram definidos com alguma razoabilidade a partir de então.
 
-O Google via SRE tem uma abordagem melhor, eles a chamam de **Error Budget**
+O Google via SRE tem uma abordagem melhor, eles a chamam de **Error Budget**. Ele é definido pelo inverso do SLO, exemplo: o SLO é de 99%, então o Error Budget é de 1%, portanto, 1% de indisponibilidade é a meta que as equipes responsáveis por serviço tem. Ele pode ser maior, por exemplo, no lançamento de um serviço e posteriormente ajustar para um percentual menor.  
 
-### Monitoramento (Alerts, Tickets, Logging)
+### Monitoramento
 
-### Respostas a incidentes emergenciais
+Provavelmente, muitos dos que estão lendo devem fazer de forma similar aos SRE no Google. Eles usam métodos para monitorar seus serviços, poderia ser um outro texto só sobre o assunto mas está pensando em iniciar ou revisar o monitoramento do seu ambiente, vale usar o que eles chamam de "Os quatros sinais de ouro" (The Four Golden Signals): **latência**, **tráfego**, **erros** e **saturação**.
 
-### Gerenciamento de mudança
+O monitoramento gera três tipos de saída: alertas, tickets e logs. Eles enfatizam que as saídas devem ter informações úteis e simplificar o possível sem que seja simplista. Por exemplo: configurar somente "pings" para avaliar a disponibilidade de um serviço. Além de recomendarem o monitoramento ser time-series como [Prometheus](https://prometheus.io)
 
-### Demand Forecasting and Capacity Planning
+Alguns anos atrás numa empresa que trabalhei, tínhamos um sistema de monitoramento que "não monitorava" segundo alguns dos meus colegas. Ninguém confiava nele para receber alertas de saturação de discos, rede ou memória, por exemplo. As pessoas preferiam entrar nos servidores e olharem por si, portanto, a confiabilidade do monitoramento era zero. Alguns diziam que o problema era ferramenta, era melhor trocar por outra. Outros diziam que não ninguém ali entendia de monitoramento e por isso que não funcionava.
 
-### Provisionamento
+Para "resolver", contratamos uma pessoa que já tinha implantado com sucesso a mesma ferramenta em outro lugar. Contratado, ele reimplementou o monitoramento e ninguém falava mais nisso, tudo certo? Após algumas semanas, perguntei por que o monitoramento estava com tantos alertas em vermelho. A resposta foi que os estavam usando o template padrão do agente de monitoramento e também não gerava ticket para eles olharem. Decidimos mudar a abordagem, inicialmente monitorávamos somente o básico de cada servidor (CPU, memória e disco), caso um algum indicador passasse do limite era aberto um ticket para Operações. Posteriormente foi incorporando outras métricas, ainda não chegava aos Quatros Sinais de Ouro mas o dashboard do sistema de monitoramento só tinha alertas (vermelho) quando realmente tinha alguma problema.
 
-### Eficiência e Performance
+As informações do monitoramento só são úteis se as pessoas ou robôs souberem o que fazer fazer com elas.
+
+### Resposta a emergências
+
+Na maioria dos lugares que trabalhei na área de Operações de TI, o mais importante era sempre o MTTF (Mean Time to Failure), mas e não só eles (Google) consideram tão importante ou mais o MTTR (Mean Time to Repair).
+
+Faz sentido, não? Uma vez o presidente da empresa que eu trabalhava se o site da empresa iria cair, disse que provavelmente sim. Ele me olhou indignado e na sequencia respondi: "*Sistemas são como carros, sempre tem alguma manutenção para fazer e nem sempre você consegue prever o que irá quebrar no carro.*". Bom, passado alguns meses estávamos conversando (Diretor de TI e eu) sobre uma RFP para contratação de um serviço especializado para a área de Operações e queria entender sobre MTBF (Mean Time Between Failures), MTTF e MTTR. Expliquei para ele o significado deles e ele perguntou porque tinha colocado o MTTR tão baixo para um serviço especializado que estava contratando. A resposta foi - "O indicador mais importante é o MTTR, porque o serviço pode ficar um ano sem qualquer tipo de incidente mas se houver uma indisponibilidade, qual será o tempo necessário para voltarmos ele?".
+
+O Google identificou que o MTTR teve melhora de desempenho de até 3 vezes ao usarem um playbook (em alguns lugares também chamado de runbook). Ele é muito usado em outras indústrias e áreas do governo que precisam responder por incidente como desastres, ameaças a segurança, etc. No ITIL verá como **Emergency Change**. O playbook deve ser claro sobre como tratar um mais incidentes de emergência como: procedimentos a serem executados, fluxo do processo ou escalonamento. Na empresa de telecom que trabalhei há muitos anos atrás tinha um playbook para incidentes emergenciais, num plantão de um colega teve um sistema importante (billing) que caiu, ele ficou apavorado e me ligou para saber o que fazer. Perguntei se ele tinha olhado o playbook porque lá tinha o contato da equipe de produto responsável por aquele sistema que poderia ajudar. Ele não tinha visto, ele e a maioria das pessoas da equipe que eu trabalhava. A principal razão é que era porque o documento era enorme e difícil entender, além de ser um arquivo do Word, isso acrescentava um outro fator que era a versão que uma equipe usava nem sempre era a mais atual.
+
+Por fim, eles praticam a "**Wheel of Misfortune**" (A roda do azar?). São simulações de incidentes que já ocorreram no Google em que semanalmente um membro da equipe de SRE é escolhido para fazer a simulação. Este tipo de exercício é excelente para acelerar o aprendizado e também prepara o SRE para situações de plantão, além de possibilitar que haja outras formas de resolver os incidentes.
+
+### Gerenciamento de Mudança
+
+Este é um número interessante, 70% dos problemas de indisponibilidade estão relacionados ao mudanças em sistemas em produção. Eles recomendam:
+
+- Implementar lançamentos (rollouts) progressivos
+- Detecção rápida e precisa dos problemas
+- Rollback com segurança quando os problemas surgirem
+
+## Outros destaques
 
 
 
-Shadow on-call
-Treinamentos
-50% resolvendo tickets, etc. 50% desenvolvendo/melhorando processos da operação.
+
+
 Blameless
 Postmortem
-Monitoramento
-Correlacionamento de eventos (centralização de logs)
-Capacity plan
-SLA/SLO/SL??
 Testes (unitários, sistêmicos, performance, falhas, etc)
-Reuniões semanais de 30 à 60 minutos
 PRR Model (Production Readiness Review)
 The SRE Engagement Model
-LCE - Launch Coordination Engineering
-Share 5% of ops work with DEV team
-Error Budgets
