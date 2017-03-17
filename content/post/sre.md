@@ -1,13 +1,13 @@
 +++
 draft = true
-date = "2017-02-24T12:01:08-03:00"
-title = "Site Realibility Engineer - SRE"
+date = "2017-03-22T12:01:08-03:00"
+title = "Site Reliability Engineer - SRE"
 description = "O que é SRE"
 categories = ["devops", "sre", "portugues"]
-tags = ["devops", "sre", "blameles", "postmortem"]
+tags = ["devops", "sre", "blameless", "postmortem", "agile"]
 
 +++
-Se ainda não viu uma vaga de trabalho ou mesmo só a sigla SRE, então se prepare porque a tendência é tornar-se bem popular. O acrônimo SRE é usado para descrever tanto Site Reliability Engineering ("Disciplina/Cultura") como Site Reliability Engineer (descrição de função/vaga de trabalho). O termo foi criado em 2003 por Ben Treynor, atual VP de Engenharia do Google e ele relata sobre a criação da equipe no livro Site Reliability Engineering. (tradução livre)
+Se ainda não viu uma vaga de trabalho ou mesmo só a sigla SRE, então se prepare porque a tendência é tornar-se bem popular. O acrônimo SRE é usado para descrever tanto **Site Reliability Engineering** ("Disciplina/Cultura") **como Site Reliability Engineer** (descrição de função/vaga de trabalho). O termo foi criado em 2003 por [Ben Treynor](https://www.linkedin.com/in/benjamin-treynor-sloss-207120/), atual VP de Engenharia do Google e ele relata sobre a criação da equipe no livro [Site Reliability Engineering](https://landing.google.com/sre/book/). (tradução livre)
 
 > SRE é o que acontece quando você pergunta para um engenheiro de software para projetar uma equipe de operações. Quando entrei no Google em 2003 e recebi a tarefa de gerenciar uma "Equipe de Produção" de sete engenheiros, durante a minha vida fui engenheiro de software até aquele ponto. Então, projetei e gerenciei o grupo da maneira que eu gostaria que ele funcionasse, se eu trabalhasse como um SRE. Desde então, esse grupo amadureceu para se tornar a equipe atual de SRE do Google que permanece fiel a suas origens como previsto por engenheiro de software ao longo da vida
 
@@ -15,7 +15,7 @@ Treynor define um pouco melhor ao final do capítulo introdutório do mesmo livr
 
 >*Site Reliability Engineer representa uma ruptura significativa das melhores prática da indústria existente para gerenciar serviços grande e complicados. Motivado originalmente pela familiaridade - "como um engenheiro de software, isso é como gostaria de investir meu tempo para realizar um conjunto de tarefas repetitivas" - tornou-se muito mais: um conjunto de princípios, práticas, incentivos e um campo de atuação dentro de disciplina maior que é a engenharia de software*.
 
-Recomendo fortemente ler o livro do Google sobre SRE, ele mostra várias e excelente boas práticas para área de operações de TI de uma organização. Há algumas ressalvas como a abordagem sysadmin para gerenciamento de serviço como ultrapassada. Na verdade, Treynor descreve como funciona a TI no modelo tradicional com equipes de desenvolvimento e operações trabalhando como silos, áreas de baixa interação, iteração e muitos conflitos entre elas. Em quase uma década após DevOps ser cunhado (2008), sysadmins tiveram uma mudança significativa como função e também em importância ao lidar com automação da infraestrutura e serviços na nuvem (cloud).   
+Recomendo fortemente ler o livro do Google sobre SRE, ele mostra várias e excelente boas práticas para área de operações de TI de uma organização. Neste texto vou destacar alguns pontos que são mais relevantes minhas impressões ou experiências similares. Logo no início Treynor descreve como funciona a TI no modelo tradicional com equipes de desenvolvimento e operações trabalhando como silos, áreas de baixa interação, iteração e muitos conflitos entre elas. Em quase uma década após DevOps ser cunhado (2008), sysadmins tiveram uma mudança significativa como função e também em importância ao lidar com automação da infraestrutura e serviços na nuvem (cloud).   
 
 Quando Guto Carvalho e outros conversamos sobre a definição de [Infraestrutura Ágil](http://infraagil.io/), ali tentava delimitar um conjunto de princípio, práticas e disciplinas para área de operações de uma organização. De fato isso foi definido e pode ser lido [aqui](http://infraagil.io/), contudo ao aprofundar um pouco meu estudo sobre DevOps e SRE, acredito que SRE faz mais sentido para ser aplicado nas organizações (empresas, repartições públicas, etc.). Afinal, são mais de uma década de experiência em manter sistemas gigantes, escaláveis e resilientes (Google).
 
@@ -39,15 +39,12 @@ O tempo das equipes é divido entre atividades de rotina de operação de TI (ex
 
 Há também uma liberdade do profissional SRE possa decidir mudar de equipe por uma razão qualquer. O impacto é relativamente pequeno porque todas equipes usam os mesmos processos e princípios. Portanto, mesmo que não tenho o conhecimento de um framework usado de um outro time, isso não é um impedimento para mudança de equipe já que ele pode aprender rapidamente. Outro ponto bem interessante é que no processo de recrutamento de novos SRE, não é requisito saber as linguagens e frameworks usados pelo Google, o mais importante é que o candidato saber programar (**Coders**).
 
-Reuniões semanais de 30 à 60 minutos
+A educação contínua é também parte importante da cultura SRE, os SRE são encorajados de diversas maneiras a aprender continuamente como também ensinar os SREs menos experientes. Isso ocorre de diversas formas, desde simulações de incidentes de indisponibilidade famosos já ocorridos, como acompanhamento de atendimento como sombra (shadow on-call). Também são incentivados a fazer engenharia reversa, mas não da forma que você está imaginando: descompilando um binário, etc. Um bom exemplo e comum em muitas empresas é suportar um sistema com a documentação incompleta ou desatualizada.
 
-Shadow on-call
+As equipes SREs não são equipes isoladas mas se relacionam com diversas outras equipes. Além as equipes de produtos, eles também tem forte interação com os
+*Release Engineers* e *Launch Coordination Engineering*. Os equipes LCE são equipes de consultoria interna de profissionais SRE com experiência em lançamento de produtos/serviços, orientando "**... os desenvolvedores para a construção de produtos rápidos e confiáveis que atendam aos padrões do Google em confiabilidade, escalabilidade e robustez**" - *(Cap. 27 - Reliable Product Launches at Scale - SRE Book)*. As equipes RE - "... **definem as melhores práticas para usar nossas ferramentas para garantir que os projetos serão lançados usando metodologias consistentes e repetíveis. Nossas melhoras práticas cobrem todos elementos de um processo de lançamento.**" - *(Cap. 8 - Release Engineering)*
 
-Além das equipes SREs, outra equipe importante, além das equipes de desenvolvimento de produtos, é a Launch Coordination Engineering. Eles são "consultores internos",  
-
-Além das equipes SREs, há um outro tipo de equipe no Google que vale destacar, é o Launch Coordination Engineering. Eles são equipes de consultoria interna de profissionais SRE com experiência em lançamento de produtos/serviços, orientando "*... os desenvolvedores para a construção de produtos rápidos e confiáveis que atendam aos padrões do Google em confiabilidade, escalabilidade e robustez*" **(Cap. 27 - Reliable Product Launches at Scale - SRE Book)**
-
-##  Os princípios básicos
+##  Os princípios básicos de SRE
 
 Os princípios básico de SRE são:
 
@@ -78,7 +75,7 @@ O Google via SRE tem uma abordagem melhor, eles a chamam de **Error Budget**. El
 
 ### Monitoramento
 
-Provavelmente, muitos dos que estão lendo devem fazer de forma similar aos SRE no Google. Eles usam métodos para monitorar seus serviços, poderia ser um outro texto só sobre o assunto mas está pensando em iniciar ou revisar o monitoramento do seu ambiente, vale usar o que eles chamam de "Os quatros sinais de ouro" (The Four Golden Signals): **latência**, **tráfego**, **erros** e **saturação**.
+Provavelmente, muitos dos que estão lendo devem fazer de forma similar aos SRE no Google. Eles usam métodos para monitorar seus serviços, poderia ser um outro texto só sobre o assunto mas está pensando em iniciar ou revisar o monitoramento do seu ambiente, vale usar o que eles chamam de "Os quatros sinais de ouro" (**The Four Golden Signals**): **latência**, **tráfego**, **erros** e **saturação**.
 
 O monitoramento gera três tipos de saída: alertas, tickets e logs. Eles enfatizam que as saídas devem ter informações úteis e simplificar o possível sem que seja simplista. Por exemplo: configurar somente "pings" para avaliar a disponibilidade de um serviço. Além de recomendarem o monitoramento ser time-series como [Prometheus](https://prometheus.io)
 
@@ -90,11 +87,11 @@ As informações do monitoramento só são úteis se as pessoas ou robôs souber
 
 ### Resposta a emergências
 
-Na maioria dos lugares que trabalhei na área de Operações de TI, o mais importante era sempre o MTTF (Mean Time to Failure), mas e não só eles (Google) consideram tão importante ou mais o MTTR (Mean Time to Repair).
+Na maioria dos lugares que trabalhei na área de Operações de TI, o mais importante era sempre o **MTTF** (Mean Time to Failure), mas e não só eles (Google) consideram tão importante ou mais o **MTTR** (Mean Time to Repair).
 
 Faz sentido, não? Uma vez o presidente da empresa que eu trabalhava se o site da empresa iria cair, disse que provavelmente sim. Ele me olhou indignado e na sequencia respondi: "*Sistemas são como carros, sempre tem alguma manutenção para fazer e nem sempre você consegue prever o que irá quebrar no carro.*". Bom, passado alguns meses estávamos conversando (Diretor de TI e eu) sobre uma RFP para contratação de um serviço especializado para a área de Operações e queria entender sobre MTBF (Mean Time Between Failures), MTTF e MTTR. Expliquei para ele o significado deles e ele perguntou porque tinha colocado o MTTR tão baixo para um serviço especializado que estava contratando. A resposta foi - "O indicador mais importante é o MTTR, porque o serviço pode ficar um ano sem qualquer tipo de incidente mas se houver uma indisponibilidade, qual será o tempo necessário para voltarmos ele?".
 
-O Google identificou que o MTTR teve melhora de desempenho de até 3 vezes ao usarem um playbook (em alguns lugares também chamado de runbook). Ele é muito usado em outras indústrias e áreas do governo que precisam responder por incidente como desastres, ameaças a segurança, etc. No ITIL verá como **Emergency Change**. O playbook deve ser claro sobre como tratar um mais incidentes de emergência como: procedimentos a serem executados, fluxo do processo ou escalonamento. Na empresa de telecom que trabalhei há muitos anos atrás tinha um playbook para incidentes emergenciais, num plantão de um colega teve um sistema importante (billing) que caiu, ele ficou apavorado e me ligou para saber o que fazer. Perguntei se ele tinha olhado o playbook porque lá tinha o contato da equipe de produto responsável por aquele sistema que poderia ajudar. Ele não tinha visto, ele e a maioria das pessoas da equipe que eu trabalhava. A principal razão é que era porque o documento era enorme e difícil entender, além de ser um arquivo do Word, isso acrescentava um outro fator que era a versão que uma equipe usava nem sempre era a mais atual.
+O Google identificou que o MTTR teve melhora de desempenho de até 3 vezes ao usarem um playbook (em alguns lugares também chamado de runbook). Ele é muito usado em outras indústrias e áreas do governo que precisam responder por incidente como desastres, ameaças a segurança, etc. No ITIL verá como **Emergency Changes**. O playbook deve ser claro sobre como tratar um mais incidentes de emergência como: procedimentos a serem executados, fluxo do processo ou escalonamento. Na empresa de telecom que trabalhei há muitos anos atrás tinha um playbook para incidentes emergenciais, num plantão de um colega teve um sistema importante (billing) que caiu, ele ficou apavorado e me ligou para saber o que fazer. Perguntei se ele tinha olhado o playbook porque lá tinha o contato da equipe de produto responsável por aquele sistema que poderia ajudar. Ele não tinha visto, ele e a maioria das pessoas da equipe que eu trabalhava. A principal razão é que era porque o documento era enorme e difícil entender, além de ser um arquivo do Word, isso acrescentava um outro fator que era a versão que uma equipe usava nem sempre era a mais atual.
 
 Por fim, eles praticam a "**Wheel of Misfortune**" (A roda do azar?). São simulações de incidentes que já ocorreram no Google em que semanalmente um membro da equipe de SRE é escolhido para fazer a simulação. Este tipo de exercício é excelente para acelerar o aprendizado e também prepara o SRE para situações de plantão, além de possibilitar que haja outras formas de resolver os incidentes.
 
@@ -106,14 +103,52 @@ Este é um número interessante, 70% dos problemas de indisponibilidade estão r
 - Detecção rápida e precisa dos problemas
 - Rollback com segurança quando os problemas surgirem
 
-## Outros destaques
+Além dos princípios básicos, outras assuntos que se destacam (para mim) são Posmortem, Testes, PRR model (Production Readiness Review)
 
+## (Blameless) Postmortem
 
+O Google não coloca Postmortem como um dos princípios básicos de SRE mas na minha visão é a cultura de Postmortem é chave para para eles e para qualquer organização que deseja se torna organizações de alta performance. Os documentos Postmortem são importantes como memória de um incidente, entendendo porque aconteceu, o que foi realizado para resolver e ações posteriores para que não ocorra novamente. Eles podem ser feito de diversas formas, tem lugares que usam páginas wiki, outros criam um documento no Google Docs que é atualizado simultaneamente pelas pessoas envolvidas no incidente. Também já vi criarem um timeline com post-its, etc. O fundamental que os relatórios Postmortem não devem apontar para pessoa(s) especificamente, eles devem focar nos acontecimentos e processos.
 
+Para eles os pontos em comum nos documentos postmortem devem incluir:
 
+- Período de downtime visível pelos usuários ou degradação além de um certo threshold
+- Qualquer tipo de dados perdido
+- Intervenção dos engenheiros (rollback de versão, alteração do roteamento do tráfego, etc)
+- Um tempo de resolução acima de algum threshold
+- Uma falha do monitoramento (qual geralmente implica na descoberta manual de um incidente)
 
-Blameless
-Postmortem
-Testes (unitários, sistêmicos, performance, falhas, etc)
-PRR Model (Production Readiness Review)
-The SRE Engagement Model
+Eles usam o Google Docs para os documentos postmortem mas definem três pontos chaves para qualquer ferramenta de postmortem:
+
+- Colaboração em tempo real
+- Um sistema aberto para comentários/anotação
+- Notificações por email
+
+Também devem responder as seguintes perguntas:
+
+- Os principais dados do incidente foram coletados para serem analisados posteriormente?
+- As avaliações do impacto estão completas?
+- A causa raiz foi suficientemente identificada?
+- O plano de ação é apropriado e o resultado do conserto do bug está na prioridade apropriada?
+- Nós compartilhamos os resultados com os stakeholders relevantes?
+
+E para quem esses documentos são destinados? Separei uma frase do capítulo "[Postmortem Culture: Learning from Failure](https://landing.google.com/sre/book/chapters/postmortem-culture.html)" que define bem:
+
+> "Nosso objetivo é compartilhar postmortems para a maior audiência possível que poderá ser beneficiada do conhecimento ou lições aprendidas."
+
+## Testando a Confiabilidade
+
+Em **Respostas a Emergências** mencionei a maior relevância do MTTR do que MTBF, no [capítulo (17)](https://landing.google.com/sre/book/chapters/testing-reliability.html) sobre **Testes** eles mostram como testes pode ajudar a encontrar bugs antes de irem para o ambiente de produção. Assim, melhorando o MTBF significativamente.
+
+Os tipo de testes são variados, desde os mais conhecidos como: Testes Unitários e Testes de Integração à outros como Testes de Regressão e Testes de Configuração. Ah, claro! Meus tipos de testes favoritos: Testes de Stress e Testes de Desastres.
+
+Outros testes que não mencionado mas considero relevante são os testes de segurança como Pen Tests, Auditorias, Análise Estática de Código, etc.
+
+## Conclusão
+
+SRE usa muito da cultura ágil como também tem muito da cultura DevOps, a grande diferença (para mim) é que as disciplina envolvidas em SRE são visíveis e o entendimento sobre o que SRE é conciso, diferentemente de DevOps que cada um tem uma interpretação diferente do que é. Não mencionado explicitamente acima mas vale mencionar é que automação é fortemente utilizada e uma a estratégia de deploy dos sistemas é o [Canary](https://martinfowler.com/bliki/CanaryRelease.html).
+
+Já vi algumas descrições de vagas SRE em sites de emprego, diferentemente de DevOps, SRE pode ser descrito como uma função de trabalho. Talvez não se torne tão popular por alguma restrição do CREA porque a profissão de engenheiro é regulamentada por eles. Então, mesmo que não você não seja um SRE onde trabalha, importante é entender as disciplinas envolvidas e cultura. Provavelmente parte do destacado neste texto ou no livro de SRE do Google você já deve fazer.
+
+No momento, vejo SRE para infraestrutura como um profunda e metódica forma de transforma a área de operações (infraestrutura) em ambientes altamente resilientes, autônomos (é diferente de automatizado) e de alta confiabilidade. A Tickemaster é um caso interessante e factível para a maioria das organizações, eles tem as funções de SRE como parte da cultura DevOps. Você pode usar SRE e/ou DevOps, ressaltando que o objetivo é transformar a organização de baixa para alta performance.
+
+Referências:
