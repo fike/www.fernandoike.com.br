@@ -1,15 +1,15 @@
 +++
-date = "2017-04-02T17:28:40-03:00"
+date = "2017-04-03T17:28:40-03:00"
 title = "Instalando Docker CE no CentOS"
 description = "Instalação do Docker Community Edition 17.03 no CentOS"
 categories = ["devops", "docker", "portugues"]
-tags = ["docker", "devops", "linux", "centos"]
-draft = false
+tags = ["docker", "devops", "linux", "centos", "systemd"]
+draft = true
 
 +++
-A Docker mudou o nome dos seus produtos e o *Docker Engine* agora é conhecido como **C**ommunity **E**dition. Se ainda não tinha lido a respeito, você pode ler pequeno resumo que escrevi sobre a mudança no "*[Docker pronto para o mundo corporativo](https://www.fernandoike.com.br/2017/03/30/docker-pronto-para-o-mundo-corporativo/)*". Logo mais abaixo é um mini roteiro de instalação no CentOS 7, ele é baseado na [documentação oficial](https://docs.docker.com/engine/installation/linux/centos/) do Docker CE.
+A Docker mudou o nome dos seus produtos e o *Docker Engine* agora é conhecido como **C**ommunity **E**dition. Se ainda não leu a respeito, você pode ler pequeno resumo que escrevi sobre a mudança no "*[Docker pronto para o mundo corporativo](https://www.fernandoike.com.br/2017/03/30/docker-pronto-para-o-mundo-corporativo/)*". Uma outra mudança para faze a instalação é que Se instalou as versões anteriores (<= 1.13) usavam o repositório **packages.docker.com** e a partir da versão 17.03 o repositório é **download.docker.com**.
 
-Se instalou do Docker no CentOS as versões anteriores (<= 1.13) verá que o repositório mudou de **packages.docker.com** para **download.docker.com**. Para este pequeno tutorial será instalado o Docker Stable e o usuário de instalação será o *root*.
+Este mini tutorial usa como base o [CentOS](https://www.centos.org) 7 e é ligeiramente modificado do roteiro de instalação da [documentação oficial](https://docs.docker.com/engine/installation/linux/centos/) do Docker CE Stable. Há uma outra pequena diferença é que aqui foi usado o usuário *root* e também a instalação de um arquivo adicional da configuração do Docker no [Systemd](https://www.freedesktop.org/wiki/Software/systemd/).
 
 ## Configurando o repositório
 
@@ -24,7 +24,7 @@ Se houver um repositório Docker já configurado, lembre-se de remover ele e tam
 
 ## Instalando Docker CE
 
-Instale o yum-utils, ele fornecerá o comando yum-config-manager para adicionará o repositório do Docker.
+Instale o yum-utils, ele fornecerá o comando yum-config-manager para adicionar o repositório do Docker.
 ```
 #yum install -y yum-utils
 ```
