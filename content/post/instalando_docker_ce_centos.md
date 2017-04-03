@@ -57,7 +57,7 @@ Iniciando o serviço do Docker.
 
 ## Bônus: Alterando do jeito certo o Docker no Systemd
 
-Para adicionar ou alterar algum parâmetro de inicialização Docker via Systemd, alguns tutoriais dizem para alterar o arquivo **docker.service** nos diretórios "**/usr/lib/systemd/system**" ou "**/lib/systemd/system**". Minha sugestão é fazer isso em outro local, porque numa eventual uma atualização do pacote do Docker, o arquivo pode ser sobrescrito e você perder as alterações feitas para iniciar o serviço do Docker. Exemplo: **/etc/systemd/system/**"
+Para adicionar ou alterar algum parâmetro de inicialização Docker via Systemd, alguns tutoriais dizem para alterar o arquivo **docker.service** nos diretórios "**/usr/lib/systemd/system**" ou "**/lib/systemd/system**". Minha sugestão é fazer isso em outro local, porque numa eventual uma atualização do pacote do Docker, o arquivo pode ser sobrescrito e você perder as alterações feitas para iniciar o serviço do Docker. Exemplo: "**/etc/systemd/system/**"
 
 Criar o diretório "**docker.service.d**"".
 ```
