@@ -11,9 +11,9 @@ A Docker mudou o nome dos seus produtos e o *Docker Engine* agora é conhecido c
 
 Este mini tutorial usa como base o [CentOS](https://www.centos.org) 7 e é ligeiramente modificado do roteiro de instalação da [documentação oficial](https://docs.docker.com/engine/installation/linux/centos/) do Docker CE Stable. Há uma outra pequena diferença é que aqui foi usado o usuário *root* e também a instalação de um arquivo adicional da configuração do Docker no [Systemd](https://www.freedesktop.org/wiki/Software/systemd/).
 
-## Configurando o repositório
+## Removendo versões anteriores
 
-Se houver um repositório Docker já configurado, lembre-se de remover ele e também o pacote docker e suas dependências.
+Se houver um repositório Docker já configurado, lembre-se de remover ele e também o pacote docker que não seja do repositório da Docker (exemplo: repositório do CentOS) e suas dependências.
 ```
 #yum remove docker \
                   docker-common \
@@ -22,7 +22,7 @@ Se houver um repositório Docker já configurado, lembre-se de remover ele e tam
                   docker-engine
 ```
 
-## Instalando Docker CE
+## Configurando o repositório
 
 Instale o yum-utils, ele fornecerá o comando yum-config-manager para adicionar o repositório do Docker.
 ```
@@ -36,7 +36,7 @@ Adicione o repositório Docker usando o yum-config-manager.
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
 
-## Instalando o Docker
+## Instalando o Docker CE
 
 Atualize o índice de pacotes e instale o pacote do Docker CE.
 ```
@@ -55,7 +55,7 @@ Iniciando o serviço do Docker.
 #systemctl start docker
 ```
 
-## Bônus: Alterando do jeito certo o Docker no systemd
+## Bônus: Alterando do jeito certo o Docker no Systemd
 
 Para adicionar ou alterar algum parâmetro de inicialização Docker via Systemd, alguns tutoriais dizem para alterar o arquivo **docker.service** nos diretórios "**/usr/lib/systemd/system**" ou "**/lib/systemd/system**". Minha sugestão é fazer isso em outro local, porque numa eventual uma atualização do pacote do Docker, o arquivo pode ser sobrescrito e você perder as alterações feitas para iniciar o serviço do Docker. Exemplo: **/etc/systemd/system/**"
 
