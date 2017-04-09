@@ -14,7 +14,7 @@ Este mini tutorial usa como base o [Debian Jessie](https://www.debian.org/releas
 
 ## Removendo versões anteriores
 
-Se houver um repositório Docker já configurado, lembre-se de remover ele e também o pacote docker que não seja do repositório da Docker e suas dependências. Exemplo: O pacote Docker encontrado no Debian **é docker.io**
+Se houver um repositório Docker já configurado, lembre-se de remover ele e também o pacote docker que não seja do repositório da Docker e suas dependências. Exemplo: O pacote Docker encontrado no Debian é **docker.io**
 ```
 #apt-get remove docker.io
 ```
