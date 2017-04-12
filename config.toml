@@ -1,4 +1,4 @@
-baseurl = "https://www.fernandoike.com.br/"
+baseurl = "https://www.fernandoike.com/"
 title = "Fike's mnemonics"
 author = "Fernando Ike"
 # Shown in the side menu
@@ -47,7 +47,7 @@ DefaultContentLanguageInSubdir = true
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 1
     identifier = "english"
-    url = "http://denali.fernandoike.com"
+    url = "http://www.fernandoike.com/tags/english/"
   [[menu.main]]
     name = "Sobre"
     pre = "<i class='fa fa-user fa-fw'></i>"
