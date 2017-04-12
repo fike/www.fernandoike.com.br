@@ -3,7 +3,7 @@ title = "Sua nuvem cai"
 date = "2013-12-18"
 draft = false
 Categories = ["devops", "portugues"]
-Tags = ["devops", "portugues", "sysadmin"]
+Tags = ["portugues", "devops", "portugues", "sysadmin"]
 +++
 Você acha que Cloud Computing são nuvens bonitinhas como essas?
 

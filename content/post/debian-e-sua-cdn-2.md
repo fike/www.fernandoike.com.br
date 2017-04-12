@@ -3,7 +3,7 @@ title = "Debian e sua CDN 2"
 date = "2013-07-17"
 draft = false
 Categories = ["debian", "SL", "web performance"]
-Tags = ["CDN", "SL", "web performance", "debian"]
+Tags = ["portugues", "CDN", "SL", "web performance", "debian"]
 +++
 Lembra do post
 [anterior](http://www.fernandoike.com/2013/06/01/debian-e-sua-cdn-experimental/)

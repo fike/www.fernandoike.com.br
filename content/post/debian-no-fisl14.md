@@ -3,7 +3,7 @@ title = "Debian no FISL 14"
 date = "2013-06-20"
 draft = false
 Categories = ["debian", "SL", "fisl", "portugues"]
-Tags = ["debian", "SL", "fisl", "portugues"]
+Tags = ["portugues", "debian", "SL", "fisl", "portugues"]
 +++
 ![](/images/fisl14.png)
 

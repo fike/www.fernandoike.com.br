@@ -3,7 +3,7 @@ title = "Webinar como suportar um milhao de usuarios simultaneos"
 date = "2013-07-01"
 draft = false
 Categories = ["web performance", "portugues"]
-Tags = ["web performance", "campus party", "eventials"]
+Tags = ["portugues", "web performance", "campus party", "eventials"]
 +++
 ![](/images/fike_eventials.png)
 

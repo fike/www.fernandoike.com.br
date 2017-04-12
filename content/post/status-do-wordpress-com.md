@@ -3,7 +3,7 @@ title = "Status do wordpress com"
 date = "2012-10-15"
 draft = false
 Categories = ["monitoramento", "portugues"]
-Tags = ["wordpress", "monitoramento", "curl"]
+Tags = ["portugues", "wordpress", "monitoramento", "curl"]
 +++
 O [Wordpress](http://wordpress.org/) é provavelmente a maior plataforma
 de blog existente na atualidade. Maior, entenda-se  como a mais usada.

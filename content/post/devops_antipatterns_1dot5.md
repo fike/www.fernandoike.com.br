@@ -2,7 +2,7 @@
 date = "2016-12-27T12:17:30-02:00"
 title = "DevOPs Anti-Patterns 1.5"
 categories = ["devops", "portugues"]
-tags = ["devops", "devopssec", "devopsweek"]
+tags = ["portugues", "devops", "devopssec", "devopsweek"]
 draft = false
 description = "Webinar sobre DevOps Anti-Patterns"
 

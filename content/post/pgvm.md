@@ -2,8 +2,8 @@
 title = "PGVM"
 date = "2013-02-25"
 draft = false
-Categories = ["SL", "postgresql", "pgvm"]
-Tags = ["SL", "postgresql", "pgvm"]
+Categories = ["portugues", "SL", "postgresql", "pgvm"]
+Tags = ["portugues", "SL", "postgresql", "pgvm"]
 +++
 O [PGVM](https://github.com/guedes/pgvm) é um projeto muito
 interessante, inspirado no [RVM](http://www.rvm.io) (Ruby Version

@@ -3,7 +3,7 @@ title = "Mars curiosity skynet coming soon"
 date = "2012-08-06"
 draft = false
 Categories = ["portugues", "aleatorio"]
-Tags = ["marte", "jpl", "curiosity"]
+Tags = ["portugues", "marte", "jpl", "curiosity"]
 +++
 ![](http://mars.jpl.nasa.gov/msl/images/PIA15682_ScarecrowDunes1-br2.jpg)
 

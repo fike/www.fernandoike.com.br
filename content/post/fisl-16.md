@@ -3,7 +3,7 @@ title = "FISL 16"
 date = "2015-08-10"
 draft = false
 Categories = ["SL", "portugues", "debian"]
-Tags = ["debian", "SL", "FISL"]
+Tags = ["portugues", "debian", "SL", "FISL"]
 +++
 ![fisl16.png](/images/fisl16.png)
 

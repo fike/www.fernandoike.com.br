@@ -3,7 +3,7 @@ title = "Eu fui tdc 2014 edicao poa"
 date = "2014-10-19"
 draft = false
 Categories = ["SL", "agile", "docker", "portugues", "web performance"]
-Tags = ["docker", "SL", "TDC", "visual thinking", "web performance", "managenment 3.0", "postgresql", "1984"]
+Tags = ["portugues", "docker", "SL", "TDC", "visual thinking", "web performance", "managenment 3.0", "postgresql", "1984"]
 +++
 Participar de eventos é sempre uma boa oportunidade de aprender coisas
 novas, aumentar o networking e repassar conhecimento ou algumas lições
@@ -47,7 +47,7 @@ pós-agilidade*"
 
 ### Será que seu site está preparado para um milhão de usuários simultâneos?
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/wa1vvpsCJA2kkm" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/wa1vvpsCJA2kkm" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px">
 
 ### Docker na vida real
 

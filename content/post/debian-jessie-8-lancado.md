@@ -3,7 +3,7 @@ title = "Debian Jessie 8 lancado"
 date = "2015-04-26"
 draft = false
 Categories = ["debian", "SL", "portugues"]
-Tags = ["debian", "jessie", "wheezy"]
+Tags = ["portugues", "debian", "jessie", "wheezy"]
 +++
 ![]( /images/debian_jessie.png)
 

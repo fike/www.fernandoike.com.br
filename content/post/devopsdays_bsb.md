@@ -1,10 +1,10 @@
 +++
 draft = false
-tags = ["devops", "container", "rkt", "docker", "bsb", "cluster", "swarm","orquestracao"
+tags = ["portugues", "devops", "container", "rkt", "docker", "bsb", "cluster", "swarm","orquestracao"
 ]
 date = "2016-11-26T12:57:17-02:00"
 title = "DevOpsDays Brasília"
-categories = ["devops", "docker", "container", "rkt"
+categories = ["portugues", "devops", "docker", "container", "rkt"
 ]
 description = "Slides das apresentações no DevOpsDays Brasília"
 

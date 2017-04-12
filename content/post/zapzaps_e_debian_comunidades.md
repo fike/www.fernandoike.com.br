@@ -1,5 +1,6 @@
 ---
 categories: ["debian", "SL", "portugues"]
+tags: ["debian", "portugues", "telegram", "Whatsapp"]
 date: 2016-07-04T15:46:42-03:00
 description: "Grupos de IM e grupos de usuários"
 keywords: ["debian", "asap", "telegram", "irc"]

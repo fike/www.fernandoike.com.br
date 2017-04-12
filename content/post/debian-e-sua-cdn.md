@@ -3,7 +3,7 @@ title = "Debian e sua cdn"
 date = "2013-06-01"
 draft = false
 Categories = ["debian", "web performance", "SL","portugues"]
-Tags = ["debian", "cdn", "web performance", "SL"]
+Tags = ["portugues", "debian", "cdn", "web performance", "SL"]
 +++
 Esse post nasceu de uma
 [discussão](https://www.facebook.com/eribertomota/posts/10200459836833517?comment_id=5113409&offset=0&total_comments=20&notif_t=share_reply)

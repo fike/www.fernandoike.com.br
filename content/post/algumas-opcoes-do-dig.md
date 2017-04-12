@@ -2,7 +2,7 @@
 title = "Algumas opcoes do dig"
 date = "2013-05-20"
 Categories = ["debian", "portugues"]
-Tags = ["debian", "dig", "dns"]
+Tags = ["portugues", "debian", "dig", "dns"]
 +++
 Muitas pessoas gostam de usar o **nslookup** para pesquisar informação
 de DNS. Eu, particularmente eu prefiro usar o **dig** e logo mais abaixo

@@ -1,8 +1,8 @@
 +++
 draft = false
-tags = ["podcast", "portuguese", "dyn", "cloud", "ddos"
+tags = ["podcast", "portugues", "dyn", "cloud", "ddos"
 ]
-categories = ["podcast", "portuguese"
+categories = ["podcast", "portugues"
 ]
 description = ""
 date = "2016-12-03T22:25:43-02:00"

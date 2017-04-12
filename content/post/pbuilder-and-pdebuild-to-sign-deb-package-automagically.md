@@ -2,8 +2,8 @@
 title = "Pbuilder and pdebuild to sign deb package automagically"
 date = "2013-09-20"
 draft = false
-Categories = ["SL", "debian"]
-Tags = ["debian", "Pbuilder", "packaging"]
+Categories = ["portugues", "SL", "debian"]
+Tags = ["portugues", "debian", "Pbuilder", "packaging"]
 +++
 To create a deb package (debian way) it is hard work. After spending
 some time working on that, you will feel more comfortable but the

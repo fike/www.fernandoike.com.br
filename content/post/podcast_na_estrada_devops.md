@@ -1,7 +1,7 @@
 +++
 description = "Sobre novo projeto de podcast"
 categories = ["devops", "portuguese", "podcast"]
-tags = ["devops", "podcast", "agile", "domain-driven design", "elastic stack"]
+tags = ["portugues", "devops", "podcast", "agile", "domain-driven design", "elastic stack"]
 draft = false
 date = "2017-04-09T09:48:10-03:00"
 title = "Novo Podcast: Na Estrada DevOps"

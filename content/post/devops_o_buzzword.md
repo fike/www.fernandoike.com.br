@@ -4,7 +4,7 @@ date = "2017-01-10T20:54:40-02:00"
 title = "Devops como Buzzword"
 description = "Reflexões sobre DevOps como buzzword"
 categories = ["devops", "portugues"]
-tags = ["agile", "devops", "buzzword", "lean"]
+tags = ["portugues", "agile", "devops", "buzzword", "lean"]
 +++
 
 ![buzzword_toy](/images/buzzword_junior.jpg)

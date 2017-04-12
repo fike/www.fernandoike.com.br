@@ -3,7 +3,7 @@ title = "Containers linux com docker"
 date = "2014-06-30"
 draft = false
 Categories = ["debian", "timbira", "SL", "portugues"]
-Tags = ["debian", "docker", "SL", "containers"]
+Tags = ["portugues", "debian", "docker", "SL", "containers"]
 +++
 ![docker_logo.png](/images/docker_logo.png)
 

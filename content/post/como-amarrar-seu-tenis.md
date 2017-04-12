@@ -3,7 +3,7 @@ title = "Como amarrar seu tenis"
 date = "2012-08-16"
 draft = false
 Categories = ["corrida de rua", "portugues"]
-Tags = ["corrida de rua", "utilidade"]
+Tags = ["portugues", "corrida de rua", "utilidade"]
 +++
 ![](http://upload.wikimedia.org/wikipedia/commons/a/a1/BightLoopElbow.jpg)
 

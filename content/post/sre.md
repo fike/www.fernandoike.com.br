@@ -4,7 +4,7 @@ date = "2017-03-23T21:01:08-03:00"
 title = "Site Reliability Engineer - SRE"
 description = "O que é SRE"
 categories = ["devops", "sre", "portugues"]
-tags = ["devops", "sre", "blameless", "postmortem", "agile"]
+tags = ["portugues", "devops", "sre", "blameless", "postmortem", "agile"]
 
 +++
 Se ainda não viu uma vaga de trabalho ou mesmo só a sigla SRE, então se prepare porque a tendência é tornar-se bem popular. O acrônimo SRE é usado para descrever tanto **Site Reliability Engineering** ("Disciplina/Cultura") **como Site Reliability Engineer** (descrição de função/vaga de trabalho). O termo foi criado em 2003 por [Ben Treynor](https://www.linkedin.com/in/benjamin-treynor-sloss-207120/), atual VP de Engenharia do Google e ele relata sobre a criação da equipe no livro [Site Reliability Engineering](https://landing.google.com/sre/book/). (tradução livre)

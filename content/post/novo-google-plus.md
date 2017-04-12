@@ -2,8 +2,8 @@
 title = "Novo Google Plus"
 date = "2013-05-15"
 draft = false
-Categories = []
-Tags = []
+Categories = ["portugues", "google"]
+Tags = ["portugues", "google"]
 +++
 Como muitos sabem, essa semana está acontecendo o [Google
 I/O](https://developers.google.com/events/io/). Este evento é

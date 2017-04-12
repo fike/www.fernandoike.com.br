@@ -3,14 +3,14 @@ title = "Instalando o veewee"
 date = "2014-06-05"
 draft = false
 Categories = ["SL", "debian", "portugues"]
-Tags = ["debian", "veewee", "nokogiri", "kvm", "vagrant"]
+Tags = ["portugues", "debian", "veewee", "nokogiri", "kvm", "vagrant"]
 +++
 [Veewee][veewee] é uma ferramenta para criar templates para o
 [Vagrant][vagrant], [KVMs][kvm] e outros sistemas de virtualização. Costumo usá-lo para
 criar imagens com alguns serviços instalados para desenvolver algum sistema
 ou testar alguma solução/prova de conceito.
 
-Se for instalar o veewee usando Ruby gerenciado pelo rvm, depois da instalação será necessário alterar a versão do ruby no arquivo **rvmrc**. No momento que foi escrito este   texto a versão estável do [Ruby][ruby] é 2.1.2. 
+Se for instalar o veewee usando Ruby gerenciado pelo rvm, depois da instalação será necessário alterar a versão do ruby no arquivo **rvmrc**. No momento que foi escrito este   texto a versão estável do [Ruby][ruby] é 2.1.2.
 
 Baixando o Veewee
 ```

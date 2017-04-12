@@ -2,8 +2,8 @@
 title = "20a maratona de revezamento pao de acucar sp"
 date = "2012-09-21"
 draft = false
-Categories = ["corrida de rua"]
-Tags = ["corrida de rua"]
+Categories = ["portugues", "corrida de rua"]
+Tags = ["portugues", "corrida de rua"]
 +++
 Bom, fui na [20ª Maratona de Revezamento Pão de Açucar - SP][maratona]!
 
@@ -17,4 +17,3 @@ De qualquer forma foi  uma corrida legal, um clima bastante legal e galera bem e
 
 [maratona]: http://www.maratonapaodeacucar.com.br/saopaulo/default_noticias_interna.asp?cod_area=6&idNoticia=6657
 [corridaadidas]: http://circuitodasestacoes.com.br/sao-paulo/sp-primavera/
-

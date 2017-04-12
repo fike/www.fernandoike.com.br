@@ -3,7 +3,7 @@ title = "Banco do brasil e openjdk"
 date = "2014-09-03"
 draft = false
 Categories = ["debian", "SL", "portugues", "java", "SL"]
-Tags = ["banco do brasil", "java", "openjdk", "icedtea", "plugin", "debian"]
+Tags = ["portugues", "banco do brasil", "java", "openjdk", "icedtea", "plugin", "debian"]
 +++
 Banco do Brasil e OpenJDK
 

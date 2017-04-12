@@ -3,7 +3,7 @@ title = "Recauchutagem do servidor do Postgresql Brasil"
 date = "2014-03-27"
 draft = false
 Categories = ["postgresql", "SL", "portugues"]
-Tags = ["postgresql", "SL"]
+Tags = ["portugues", "postgresql", "SL"]
 +++
 ![]( /images/breaking_glass.jpg)
 

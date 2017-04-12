@@ -3,7 +3,7 @@ title = "Melhorando o seu site com pagespeed"
 date = "2013-07-30"
 draft = false
 Categories = ["web performance", "debian", "SL", "portugues"]
-Tags = ["debian", "web performance", "FEO", "SL", "pagespeed"]
+Tags = ["portugues", "debian", "web performance", "FEO", "SL", "pagespeed"]
 +++
 [Front End Optimization(FEO)](http://www.yottaa.com/why-yottaa/technology/front-end-optimization/)
 é um dos buzzwords mais comentados nos últimos tempos. São vários

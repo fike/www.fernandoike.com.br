@@ -3,7 +3,7 @@ title = "Meetup docker sp docker na vida real"
 date = "2014-11-17"
 draft = false
 Categories = ["SL", "portugues", "docker", "devops"]
-Tags = ["SL", "docker", "meetup", "TDC", "devops"]
+Tags = ["portugues", "SL", "docker", "meetup", "TDC", "devops"]
 +++
 No dia 18 de Novembro estarei no [Meetup Docker São Paulo][meetup] para falar
 um pouco da migração de serviços de infraestrutura para o Docker.

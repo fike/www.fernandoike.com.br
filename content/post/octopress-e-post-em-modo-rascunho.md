@@ -2,8 +2,8 @@
 title = "Octopress e post em modo rascunho"
 date = "2013-05-23"
 draft = false
-Categories = []
-Tags = []
+Categories = ["portugues", "SL", "octopress"]
+Tags = ["portugues", "octopress"]
 +++
 Quando crio um novo post, às vezes esquece de adicionar o campo
 **published** configurado como false. Ele possibilita você trabalhar num
@@ -11,7 +11,7 @@ post até que ele estar finalizado sem que seja publicado, somente no
 modo preview (*rake preview*)que você conseguirá ver o post inacabado e
 fazer testes dele.
 
-Depois de criar um novo post com *rake new\_post*, precisar acrecentar
+Depois de criar um novo post com *rake new\_post*, precisar acrescentar
 um o campo published configurado como false:
 
 ```

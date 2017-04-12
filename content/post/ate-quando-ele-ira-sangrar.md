@@ -3,7 +3,7 @@ title = "Ate quando ele ira sangrar"
 date = "2014-04-18"
 draft = false
 Categories = ["portugues", "debian", "SL"]
-Tags = ["debian", "openssl", "heartbleed", "TLS"]
+Tags = ["portugues", "debian", "openssl", "heartbleed", "TLS"]
 +++
 Até quando corações irão sangrar?
 

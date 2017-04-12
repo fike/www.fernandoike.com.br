@@ -1,5 +1,5 @@
 +++
-tags = ["docker", "devops", "container", "linux", "aws", "azure "]
+tags = ["portugues", "docker", "devops", "container", "linux", "aws", "azure "]
 draft = false
 date = "2017-03-30T18:57:01-03:00"
 title = "Docker pronto para o mundo corporativo"

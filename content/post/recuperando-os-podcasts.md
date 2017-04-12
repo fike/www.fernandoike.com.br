@@ -2,8 +2,8 @@
 title = "Recuperando os podcasts"
 date = "2013-12-12"
 draft = false
-Categories = ["aleatorio", "podcast", "SL"]
-Tags = ["aleatorio", "podcast", "SL"]
+Categories = ["portugues", "aleatorio", "podcast", "SL"]
+Tags = ["portugues", "aleatorio", "podcast", "SL"]
 +++
 ![]( /images/345px-Dolina-Pano-3.jpg "Fonte: Wikipedia")
 
