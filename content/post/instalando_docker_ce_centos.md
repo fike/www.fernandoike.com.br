@@ -7,7 +7,7 @@ tags = ["portugues", "docker", "devops", "linux", "centos", "systemd"]
 draft = false
 
 +++
-A Docker mudou o nome dos seus produtos e o *Docker Engine* agora é conhecido como **C**ommunity **E**dition. Se ainda não leu a respeito, você pode ler pequeno resumo que escrevi sobre a mudança no "*[Docker pronto para o mundo corporativo](https://www.fernandoike.com/2017/03/30/docker-pronto-para-o-mundo-corporativo/)*". Uma outra mudança para fazer a instalação a instalação mudou, para instalar as versões anteriores era usado o **packages.docker.com** e a partir da versão 17.03 o repositório é **download.docker.com**.
+A Docker mudou o nome dos seus produtos e o *Docker Engine* agora é conhecido como **C**ommunity **E**dition. Se ainda não leu a respeito, você pode ler pequeno resumo que escrevi sobre a mudança no "*[Docker pronto para o mundo corporativo](https://www.fernandoike.com/pt/2017/03/30/docker-pronto-para-o-mundo-corporativo/)*". Uma outra mudança para fazer a instalação a instalação mudou, para instalar as versões anteriores era usado o **packages.docker.com** e a partir da versão 17.03 o repositório é **download.docker.com**.
 
 Este mini tutorial usa como base o [CentOS](https://www.centos.org) 7 e é ligeiramente modificado do roteiro de instalação da [documentação oficial](https://docs.docker.com/engine/installation/linux/centos/) do Docker CE Stable. Há uma outra pequena diferença é que aqui foi usado o usuário *root* e também a instalação de um arquivo adicional da configuração do Docker no [Systemd](https://www.freedesktop.org/wiki/Software/systemd/).
 
