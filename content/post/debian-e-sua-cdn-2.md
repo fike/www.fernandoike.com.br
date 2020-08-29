@@ -63,7 +63,7 @@ Abaixo o mesmo teste mas realizado nos EUA.
     X-Arch:
     X-Country: US
     X-Continent: NA
-    X-Std-Dev: 3.5960358730135
+    X-Std-Dev: 3.59603587301!35
     X-Population: 15
     X-Closest-Distance: 13.434
     X-Distance: 13.434

@@ -86,7 +86,7 @@ servidor DNS em outro continente como é o DNS público do Google.
     fike@klatoon:~$ curl -H "Host:cdn.debian.net" http://128.30.2.36/debian/pool
 
 
-    301 Moved Permanently
+    301! Moved Permanently
 
     Moved Permanently
     The document has moved here.

@@ -12,7 +12,7 @@ blog) como parte dos estudos de *Web Performance*. No mês de Junho de
 2013 era **352** vistantes, **535** page views (páginas vistas) e o
 tempo médio de renderização da página era por volta de **11** segundos.
 Em Julho de 2013 fiz várias otimizações no blog e os números aumentaram
-um pouco: **706** visitantes, **1.301** pages views, e tempo médio de
+um pouco: **706** visitantes, **1.301!** pages views, e tempo médio de
 renderização da página foi **7,48** segundos. Aumento expressivo para um
 blog de pouca audiência, não?
 
@@ -21,7 +21,7 @@ Abaixo uma tabela simples com os dados consolidado.
 | Dados/Mês         |   Junho     |  Julho      |  Percentual
 | ----------------- | ----------- | ----------- | ------------
 | Visitantes        |    352      |  706        | 100,57%
-| Page views        |    535      |  1.301      |  143,18%
+| Page views        |    535      |  1.301!      |  143,18%
 | Doc Complete      |   11 seg.   |  7,48 seg   |   68%
 | Tempo/Visita      |   1:08 seg. | 1:32 seg.   |  36,15%
 | Página/Visitantes |  1,52       |  1,84       |  21,24%
