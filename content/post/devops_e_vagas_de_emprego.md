@@ -28,7 +28,7 @@ Descrever uma oportunidade de trabalho "DevOps" não parece ser tão simples qua
 
 ### Por que toda essa confusão?
 
-Tentei responder porque DevOps tem múltiplos significados e entendimentos no texto "[DevOps como buzzword](https://www.fernandoike.com/2017/01/10/devops-como-buzzword/)". Em parte, isso acontece porque é mais fácil vender "DevOps" como ferramentas do que uma cultura, também dependendo do papel (função) da pessoa pode ter um significado mais próximo do universo que ela pertence. Talvez a melhor resposta seja do  
+Tentei responder porque DevOps tem múltiplos significados e entendimentos no texto "[DevOps como buzzword](https://www.fernandoike.com/pt/2017/01/10/devops-como-buzzword/)". Em parte, isso acontece porque é mais fácil vender "DevOps" como ferramentas do que uma cultura, também dependendo do papel (função) da pessoa pode ter um significado mais próximo do universo que ela pertence. Talvez a melhor resposta seja do  
 [Aymen El AmriFollow](http://eon01.com/), ele fez um [checklist](https://hackernoon.com/the-must-know-checklist-for-devops-system-reliability-engineers-f74c1cbf259d#.5lfuvr8ko) (em inglês) com 31 habilidades que **DevOps** e/ou **SRE** devem ter. Na introdução ele faz uma síntese de como alguns papéis na área de TI entende o que é DevOps:
 
 > Para evangelistas, Devops é uma cultura e uma transformação. Para alguns engenheiros, DevOps é um conjunto de técnicas e ferramentas. Para gerentes, DevOps é provavelmente metodologia. Para outras pessoas é só um buzzword e para recrutadores é uma função na organização (emprego).

@@ -7,7 +7,7 @@ draft = false
 date = "2017-04-03T12:28:50-03:00"
 
 +++
-A Docker mudou o nome dos seus produtos e o *Docker Engine* agora é conhecido como **C**ommunity **E**dition. Se ainda não leu a respeito, você pode ler pequeno resumo que escrevi sobre a mudança no "*[Docker pronto para o mundo corporativo](https://www.fernandoike.com/2017/03/30/docker-pronto-para-o-mundo-corporativo/)*". Uma outra mudança para fazer a instalação a instalação mudou, para instalar as versões anteriores era usado o **packages.docker.com** e a partir da versão 17.03 o repositório é **download.docker.com**.
+A Docker mudou o nome dos seus produtos e o *Docker Engine* agora é conhecido como **C**ommunity **E**dition. Se ainda não leu a respeito, você pode ler pequeno resumo que escrevi sobre a mudança no "*[Docker pronto para o mundo corporativo](https://www.fernandoike.com/pt/2017/03/30/docker-pronto-para-o-mundo-corporativo/)*". Uma outra mudança para fazer a instalação a instalação mudou, para instalar as versões anteriores era usado o **packages.docker.com** e a partir da versão 17.03 o repositório é **download.docker.com**.
 
 Este mini tutorial usa como base o [Debian Jessie](https://www.debian.org/releases/jessie/) e é ligeiramente modificado do roteiro de instalação da [documentação oficial](https://docs.docker.com/engine/installation/linux/centos/) do Docker CE Stable. Há uma outra pequena diferença é que aqui foi usado o usuário *root* e também a instalação de um arquivo adicional da configuração do Docker no [Systemd](https://www.freedesktop.org/wiki/Software/systemd/).
 
@@ -51,7 +51,7 @@ Instalando o pacote Docker Community Edition.
 
 A versão kernel Linux padrão da Jessie é bem antigo (3.16), se quiser usar uma versão mais recente poderá instalar via [Backports](https://backports.debian.org/). No momento em que este mini tutorial estava sendo escrito a versão mais atual disponível era 4.9, nesta versão foi removido o patch do AUFS e não tem uma versão do módulo dele no Backports para instalar. Portanto, para usar o Docker com um kernel Linux recente terá que modificar os parâmetros de inicialização do serviço Docker no Systemd para usar outro sistema de arquivo como OverlayFS.
 
-Como no "[Instalando Docker CE no CentOS](https://www.fernandoike.com/2017/04/02/instalando-docker-ce-no-centos/)", a recomendação é usar o diretório "**/etc/systemd/system/**" para usar os parâmetros específicos da inicialização do Docker via Systemd. Um detalhe diferente da instalação no CentOS é que se modificar o "/etc/default/docker" não terá nenhum efeito se o boot for com o Systemd, ele só tem efeito para o Debian que usa como boot Sysvinit/Upstart.
+Como no "[Instalando Docker CE no CentOS](https://www.fernandoike.com/pt/2017/04/02/instalando-docker-ce-no-centos/)", a recomendação é usar o diretório "**/etc/systemd/system/**" para usar os parâmetros específicos da inicialização do Docker via Systemd. Um detalhe diferente da instalação no CentOS é que se modificar o "/etc/default/docker" não terá nenhum efeito se o boot for com o Systemd, ele só tem efeito para o Debian que usa como boot Sysvinit/Upstart.
 
 Criar o diretório "**docker.service.d**"".
 ```
