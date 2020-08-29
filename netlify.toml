@@ -14,5 +14,5 @@
 
 
 [build]
-command = "hugo build && cp _redirects public/_redirects"
+command = "hugo --gc --minify && cp _redirects public/_redirects"
 publish = "public"
